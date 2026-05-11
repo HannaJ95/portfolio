@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-onest: 'Onest', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+
+  --breakpoint-xs: 320px;
+  --breakpoint-ss: 440px;
+}
+
+body {
+  font-family: var(--font-onest);
+}
+
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
