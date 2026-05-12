@@ -1,3 +1,13 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/LOST-ISLAND-HOTEL/:path*",
+      "destination": "https://lost-island.hannajohansson01.se/:path*"
+    },
+    {
+      "source": "/Drink-Recipe-Finder/:path*",
+      "destination": "https://drink-recipe-finder.hannajohansson01.se/:path*"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
