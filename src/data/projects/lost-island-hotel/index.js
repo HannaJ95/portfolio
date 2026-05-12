@@ -12,6 +12,6 @@ export default {
   description: 'A fullstack hotel booking system for the fictional Yrgopelag island, built at the end of the first semester. Visitors can book one of three room types — budget, standard, or luxury — for dates in January 2026. Pricing is calculated in real time with support for returning guest discounts and package deals. Payments are processed via the Central Bank of Yrgopelag\'s REST API using transfer code validation. A login-protected admin panel lets the hotel manager update prices, discounts, features, and view all bookings.',
   date: '2026-01-09',
   techStack: ['PHP', 'SQLite', 'JavaScript', 'HTML', 'CSS', 'Guzzle', 'phpdotenv'],
-  liveUrl: 'https://hannajohansson01.se/LOST-ISLAND-HOTEL/',
+  liveUrl: 'https://lost-island.hannajohansson01.se/',
   repoUrl: 'https://github.com/HannaJ95/yrgopelag',
 }
