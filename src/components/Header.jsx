@@ -52,6 +52,16 @@ export default function Header() {
                 </Link>
               </li>
             ))}
+            <li>
+              <a
+                href="/CVhannaJ.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 font-bold tracking-widest hover:bg-black hover:text-white uppercase transition-colors duration-400 border-2 border-black"
+              >
+                CV
+              </a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -73,6 +83,17 @@ export default function Header() {
               </Link>
             </li>
           ))}
+          <li>
+            <a
+              href="/CVhannaJ.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setTimeout(() => setOpen(false), 200)}
+              className='p-2 font-bold tracking-widest active:bg-black active:text-white uppercase transition-colors duration-200 text-md border-2 border-black'
+            >
+              CV
+            </a>
+          </li>
         </ul>
       </nav>
 
