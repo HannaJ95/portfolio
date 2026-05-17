@@ -12,6 +12,7 @@ export default {
   description: 'A responsive web app built with vanilla JavaScript that fetches cocktail recipes from the public TheCocktailDB API. Users pick an alcohol type from a dropdown and get a random matching recipe with ingredients and measurements automatically converted to cl. The project was an exercise in working with external APIs, async/await, and DOM manipulation — without any frameworks or libraries.',
   date: '2025-12-11',
   techStack: ['JavaScript', 'CSS', 'HTML'],
+  apis: ['TheCocktailDB API'],
   liveUrl: 'https://drink-recipe-finder.hannajohansson01.se/',
   repoUrl: 'https://github.com/HannaJ95/Drink-Recipe-Finder',
 }

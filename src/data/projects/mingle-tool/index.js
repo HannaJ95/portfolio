@@ -1,11 +1,12 @@
 import thumbnail from '../../../assets/images/projects/mingle-tool/thumb.webp'
 import imageMobilePages from '../../../assets/images/projects/mingle-tool/mobile-pages.webp'
+import imageDBSchema from '../../../assets/images/projects/mingle-tool/db_schema.webp'
 
 export default {
   slug: 'mingle-tool',
   title: 'Mingle Tool',
   thumbnail,
-  images: [imageMobilePages],
+  images: [imageMobilePages, imageDBSchema],
   type: 'Web',
   isGroupProject: true,
   collaborators: ['design students'],
