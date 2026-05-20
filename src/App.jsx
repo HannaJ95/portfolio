@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import CurrentProjects from "./components/CurrentProjects";
 import Connect from "./components/Connect";
 import Footer from "./components/Footer";
 import TechStack from "./components/TechStack";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={
             <>
               <Hero />
+              <CurrentProjects />
               <About />
               <TechStack />
               <Projects />

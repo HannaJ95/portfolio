@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { projects } from '../data/projects/index'
+import { allProjects } from '../data/projects/index'
 import ImageCarousel from './ImageCarousel'
 
 export default function ProjectPage() {
   const { slug } = useParams()
-  const project = projects.find((p) => p.slug === slug)
+  const project = allProjects.find((p) => p.slug === slug)
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -74,7 +74,7 @@ export default function ProjectPage() {
         </div>
 
         <div className="flex flex-col gap-8 px-6 py-8 order-1 md:order-2">
-          <p className="leading-relaxed">{description}</p>
+          <p className="leading-relaxed whitespace-pre-line">{description}</p>
 
           <div>
             <h2 className="text-xs uppercase tracking-widest font-bold opacity-60 mb-3">Tech Stack</h2>

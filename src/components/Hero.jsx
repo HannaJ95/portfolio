@@ -7,7 +7,7 @@ export default function Hero() {
 
       <div className="border-b pb-6">
         <h1 className="text-xl md:text-2xl lg:text-3xl text-white bg-black w-fit p-1">
-          Web Developer Student
+          Full Stack Developer Student
         </h1>
       </div>
     </div>
