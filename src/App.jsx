@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import CurrentProjects from "./components/CurrentProjects";
+import Latest from "./components/Latest";
 import Connect from "./components/Connect";
 import Footer from "./components/Footer";
 import TechStack from "./components/TechStack";
@@ -40,6 +41,7 @@ function App() {
             <>
               <Hero />
               <CurrentProjects />
+              <Latest />
               <About />
               <TechStack />
               <Projects />

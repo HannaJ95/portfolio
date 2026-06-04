@@ -1,4 +1,4 @@
-import { projects } from "../data/projects/index";
+import { allProjects } from "../data/projects/index";
 import ProjectCard from "./ProjectCard";
 import SectionTitle from "./SectionTitle";
 
@@ -8,7 +8,7 @@ export default function Projects() {
       <SectionTitle title="Projects" />
 
       <div className="flex flex-col px-4 sm:px-8 md:px-12 lg:px-24 gap-12 sm:grid sm:grid-cols-2">
-        {projects.map((project) => (
+        {allProjects.map((project) => (
           <div
             key={project.slug}
             className="

@@ -3,10 +3,12 @@ import cavelliAtelier from './cavelli-atelier'
 import drinkRecipeFinder from './drink-recipe-finder'
 import butterChicken from './butter-chicken'
 import mingleTool from './mingle-tool'
-import whatTheFluff from './current/what-the-fluff'
+import whatTheFluff from './what-the-fluff'
 
 
-export const currentProjects = [
+export const currentProjects = []
+
+export const latestProjects = [
   whatTheFluff,
 ]
 
@@ -18,4 +20,4 @@ export const projects = [
   butterChicken
 ]
 
-export const allProjects = [...currentProjects, ...projects]
+export const allProjects = [...currentProjects, ...latestProjects, ...projects]
